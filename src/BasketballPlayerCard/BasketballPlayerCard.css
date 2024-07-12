@@ -1,0 +1,105 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.player-card {
+  border: 2px solid #ffff00;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: box-shadow, transform 0.2s ease-in-out;
+}
+
+.player-card:hover {
+  box-shadow: 0px 0px 8px 2px #ffff00;
+  transform: scale(1.03);
+}
+
+.player-image {
+  width: 20rem;
+  border-radius: 1rem;
+}
+
+.name-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.player-name {
+  display: flex;
+  gap: 8px;
+  margin-block: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.player-position {
+  display: flex;
+  gap: 5px;
+  margin-block: 5px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.player-stats {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  margin-top: 1rem;
+  gap: 5px;
+  font-size: 1rem;
+}
+
+.common-stats {
+  display: flex;
+  gap: 5px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 400px) {
+  .player-card {
+    padding: 1rem;
+  }
+
+  .player-image {
+    width: 15rem;
+  }
+
+  .name-container {
+    align-items: start;
+    flex-direction: column;
+    margin: 2px;
+  }
+
+  .player-name {
+    gap: 5px;
+    margin-block: 2px;
+    font-size: 1rem;
+  }
+
+  .player-position {
+    gap: 5px;
+    margin-block: 2px;
+    font-size: 14px;
+  }
+
+  .player-stats {
+    margin: 2px;
+    margin-top: 0.5rem;
+    gap: 2px;
+  }
+
+  .common-stats {
+    gap: 5px;
+    font-size: 12px;
+  }
+}
