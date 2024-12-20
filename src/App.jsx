@@ -6,7 +6,7 @@ const App = () => {
     <div>
       <BasketballPlayerCard
         name="LeBron James"
-        image="https://www.usatoday.com/gcdn/presto/2020/01/26/USAT/80802abd-a62b-4420-8e15-ac4bd08c5929-2020-01-25_LeBron1.jpg?crop=2245,1688,x476,y589&width=700&height=527&format=pjpg&auto=webp"
+        image="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg/800px-LeBron_James_%2851959977144%29_%28cropped2%29.jpg"
         position="Forward"
         stats={{
           pointsPerGame: 25.4,
